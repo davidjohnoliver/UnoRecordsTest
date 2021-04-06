@@ -24,6 +24,7 @@ namespace UnoRecordsTest
 	{
 		public MainPage()
 		{
+			DataContext = new SweetRecord(true, "I am a record and you can too");
 			this.InitializeComponent();
 		}
 	}
